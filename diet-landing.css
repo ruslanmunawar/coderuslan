@@ -1,0 +1,1074 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,900);
+
+@import url(//fonts.googleapis.com/css?family=Pacifico);
+
+
+
+a{color:#2359a0; text-decoration:underline;}
+
+a:hover{color:#e71103; text-decoration:none;}
+
+
+
+body{
+
+	background-color:#f7f1e7;
+
+    font-family:'Source Sans Pro', Arial, sans-serif !important;
+
+	font-weight: 400;
+
+	background-image:url(../images/top_index.jpg), url(../images/back-bottom.jpg);
+
+    background-repeat:no-repeat;
+
+	background-position:top center, bottom center;
+
+	color:#000;
+
+	overflow-x: hidden;
+
+	 }
+
+
+
+p, span.p{font-size:18px; margin-bottom:20px; line-height:1.6em; text-align:left;}
+
+p.large-par{font-size:30px; margin-bottom:20px; line-height:1.6em; text-align:center;}
+
+p strong{font-size:28px; margin-bottom:20px; line-height:1.6em; text-align:center; color:#bf0000;}
+
+h2, h3{ font-family:'Pacifico', cursive !important; font-size:40px; font-weight:bold;margin-bottom:25px;}
+
+h2 span strong, h3 span strong{font-size:60px;}
+
+
+
+h2{margin:60px 0; line-height:1.4em;}
+
+h2 strong{color:#0905b9;}
+
+
+
+h1, .features h3, .testimonials h3, .quick-peak h3{
+
+	font-family:'Pacifico', cursive !important;
+
+    font-weight: normal;
+
+	font-style: normal;
+
+	font-size:45px;
+
+	margin:0 0 30px 0;
+
+	line-height:1.1em;
+
+}
+
+
+
+h1{
+
+	font-size:54px;
+
+	margin:50px  0 0 0;
+
+}
+
+h1 strong{color:#bf0000;}
+
+
+
+h4{font-size:34px; font-weight:bold;margin-bottom:10px;}
+
+
+
+	
+
+.container{text-align:center;}
+
+.header-wrapper{position:relative; height:205px; display:block;}
+
+.inner-page {height: 180px;}
+
+.container div.header{text-align:left;}
+
+
+
+div.header img.logo{
+
+	margin:5px 0 0 12px;
+
+	}
+
+	
+
+div.header img.top-message{
+
+    float:right;
+
+	margin:23px 193px 0 0;
+
+	}
+
+
+
+div.welcome-box{
+
+	text-align:center;
+
+	position:relative;
+
+	}
+
+div.speakers{
+
+	position:absolute;
+
+    right: 164px;
+
+    top: -52px;
+
+	height:40px; 
+
+	width:344px; 
+
+	background: url(../images/speaker.png) no-repeat;}
+
+
+
+div.main-box-white{
+
+	margin: 0;
+
+    padding:0;
+
+	max-width:944px;
+
+	}
+
+
+
+.videoBack {
+
+    height: 465px;
+
+    margin-bottom: 20px;
+
+    padding: 0 0 0 8px;
+
+    text-align: center;
+
+    width: 98%;
+
+}
+
+.video{
+
+	width:700px;
+
+	margin:0 auto;
+
+	  }
+
+
+
+.videoWrapper {
+
+	margin:0 auto;
+
+	position: relative;
+
+	padding-bottom: 56.25%; /* 16:9 */
+
+	padding-top: 0px;
+
+	height: 0;
+
+}
+
+.videoWrapper iframe {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+
+
+.footer-wrapper{
+
+	display:block;
+
+	min-height:88px;
+
+	padding-top: 30px;
+
+	width:98%;
+
+    }
+
+div.footer{
+
+    width:100%;
+
+   }
+
+   
+
+
+
+div.footer {color:#000;}
+
+div.footer ul li{float:left; list-style:none; margin-right:20px; margin-bottom:8px;}
+
+div.footer ul li a{font-size:16px; text-decoration:none;}
+
+div.footer p{font-size:14px;}
+
+p.allRight{text-align:right;}
+
+
+
+.features, .testimonials, .quick-peak{
+
+	background:#fff;
+
+	padding:13px 0;
+
+	border:none;
+
+	border-radius:4px;
+
+	box-shadow:0 1px 2px 2px #ddd;
+
+	}
+
+
+
+.inner-content{padding:5px 50px 30px 50px ; min-height:650px;}
+
+.inner-content img{border-radius:0 !important;}
+
+.inner-content h1{margin-bottom:40px}
+
+
+
+div.transparent-block{
+
+	margin-top: 5px;
+
+    padding: 47px 0 37px;
+
+    background: url(../images/floor.jpg) no-repeat;}
+
+	
+
+div.transparent-block2{
+
+	margin-top: 5px;
+
+    padding: 47px 0 27px;
+
+    background: url(../images/floor.jpg) no-repeat;}
+
+	
+
+.quick-peak{
+
+	background:#325b96 url(../images/quick-peak-back.png);
+
+	margin-bottom: 30px;
+
+}
+
+				
+
+.testimonials h3, .features h3, .quick-peak h3{ font-size:40px; margin-bottom:38px;}
+
+.quick-peak h3{color:#d01819;}
+
+
+
+.testimonials h3{color:#000; clear:both; padding-top: 58px; font-size:40px; position:relative}
+
+.testimonials h3.first-testimonial{padding-top:22px;}
+
+.holes{position:relative; margin-top:100px;}
+
+.testimonials h3 span.testimonials-background{background:url(../images/holes.png) repeat-x; position:absolute;top:0;left:-4px; height:40px; width:101%; display:block;}
+
+.holes span.testimonials-background{background:url(../images/holes.png) repeat-x; position:absolute;top:-64px;left:-45px; height:40px; width:111%; display:block;}
+
+
+
+span.red, span.red{color:#e71103;}
+
+span.blue, span.blue{color:#2359a0;}
+
+span strong, span strong{font-size:60px;}
+
+
+
+.features-content, .testimonials-content, .quick-peak-content{
+
+	padding:36px 42px 5px 42px;
+
+	}
+
+ .quick-peak-content{display:table; }
+
+.features-content ul, .quick-peak-content ul{
+
+	text-align:left;
+
+	margin-left:7%;
+
+	margin-top:95px;
+
+	}
+
+.features-content ul li, .quick-peak-content ul li{
+
+	background:url(../images/yes.png) no-repeat;
+
+	list-style:none;
+
+	font-size:21px;
+
+	margin-bottom: 19px;
+
+    padding:5px 0 1px 34px;
+
+	color:#fff;
+
+	float:left;
+
+	width:45%;
+
+	}
+
+.quick-peak-content ul li{
+
+	background:url(../images/bullet.png) no-repeat;
+
+	}
+
+.quick-peak-content{position:relative;}
+
+.quick-peak-content h4 {
+
+	text-transform:uppercase; 
+
+	color:#fff;background: url(../images/quick-peak-h3.png) center no-repeat;
+
+font-size:27px; 
+
+font-weight:400; 
+
+padding:17px 60px 26px;
+
+ text-align:center; 
+
+ width: 862px; 
+
+ position:absolute;
+
+ top:0; 
+
+ left:-14px;
+
+line-height: 1.3;
+
+text-shadow:1px 1px 1px #325b96;
+
+}
+
+
+
+.book-wrapper{background: url(../images/book-frame.png) no-repeat; padding:10px;}
+
+.book{background:#f9f8f8; border:10px solid #fff; padding:34px 40px 20px 20px;}
+
+.book h4{
+
+	font-family:'Source Sans Pro', Arial, sans-serif !important;
+
+	font-weight: 400;
+
+	color:#fff;
+
+	text-transform:uppercase;
+
+	font-size:25px;
+
+	text-shadow:1px 1px 1px #000;
+
+	padding:10px 14px;
+
+	text-align:left;
+
+	width:405px;
+
+	float:right;
+
+	background-repeat:no-repeat;
+
+	}
+
+.book p{font-size:15px;}
+
+
+
+.introduction h4{background-image:url(../images/h4-1.png)}
+
+.diet h4{background-image:url(../images/h4-2.png)}
+
+.workout h4{background-image:url(../images/h4-3.png)}
+
+.mindset h4{width:385px; background-image:url(../images/h4-4.png)}
+
+
+
+p.before-after-text{padding-top:30px;}
+
+
+
+h3.lose-free{
+
+	font-family:'Source Sans Pro', Arial, sans-serif !important;
+
+	font-weight: 400;
+
+	background:url(../images/h3-lose.jpg) no-repeat center top;
+
+	width:714px;
+
+	height:96px;
+
+	margin:0 auto;
+
+	font-size:50px;
+
+	padding-top:17px;
+
+	}
+
+h3.lose-free span.free-red{	
+
+		color:#e71103;
+
+	}
+
+	
+
+.no-underline-pic{background-image:url(../images/h3-lose-no.jpg) !important;}
+
+
+
+	
+
+div.free p{text-align:center; margin:40px;}
+
+div.before-after-man{margin:50px 0;}
+
+
+
+.testimonials .span8{
+
+	background:#fdfdd6 url(../images/lines-testimonials.png);
+
+	border-radius:6px;
+
+	padding:28px 25px 10px 42px;
+
+	text-align:left;
+
+	position:relative;
+
+	color:#262625;
+
+	margin-bottom:40px;
+
+	border:1px solid #f8df96;
+
+	}
+
+
+
+.testimonials .span8 em{
+
+	font-size:17px;
+
+	line-height:1.6em;
+
+	}
+
+.testimonials .span8 p{
+
+	clear:both;
+
+	font-size:18px;
+
+	font-weight:bold;
+
+	margin-top:20px;
+
+	}
+
+	
+
+.testimonials img{
+
+	border-radius:50%;
+
+	}
+
+.testimonials .span8 span.arrow{
+
+	display:block;
+
+	position:absolute;
+
+	top:18px;
+
+	left:-23px;
+
+	background:url(../images/arrow.png) no-repeat;
+
+	width:23px;
+
+	height:41px;
+
+	}
+
+
+
+.row-fluid{padding:0}
+
+.row-fluid .span2:first-child, .row-fluid .span2{margin:0 10px 0 10px;}
+
+.imgRight{display:block; float:right; margin:0 0 10px 10px;}
+
+.imgLeft{display:block; float:left; margin:10px 10px 10px;}
+
+.imgLeft2{display:block; float:left; margin:40px 10px 10px;}
+
+.imgLeft3{display:block; float:left; margin:70px 10px 35px;}
+
+.imgCenter{text-align:center;}
+
+
+
+.membership{margin:60px 0;}
+
+
+
+/* FAQ page */
+
+div.faq-head{
+
+		background: #fff url(../images/faq-back.jpg) no-repeat center top;
+
+}
+
+div.faq-head h1 {color:#fff; padding:145px 0; text-shadow:3px 3px 7px #1E678E;}
+
+div.faq-head h1 strong{color:#fff;}
+
+div.faq-head u{
+
+		background:url(../images/question.png) 0 1px no-repeat;
+
+		padding-left:25px;
+
+		display: table;
+
+        margin: 25px 0;
+
+		color:#bf0000;
+
+		font-weight:bold;
+
+		font-size:17px;
+
+		text-align:left;
+
+	}
+
+div.faq-head u:hover{cursor:pointer;}
+
+div.faq-head p{padding-left:25px;}
+
+div.bottom-pic-holder{position:relative;}
+
+div.bottom-pic-holder img{
+
+	position:absolute; 
+
+    right: 30px;
+
+    bottom: -88px;}
+
+body.discount div.bottom-pic-holder img{
+    right: 138px;
+}
+
+
+
+.formPlace ul{max-width:600px;}
+
+form{text-align:left;position:relative;}
+
+
+
+input, textarea, .uneditable-input{width:90%; }
+
+
+
+form ul {margin:0;}
+
+form ul li{position:relative; list-style:none; margin-bottom:15px;}
+
+form input{
+
+	border:#4a494a 1px solid;
+
+	font-size:16px;
+
+	color:#9b9494;
+
+	padding:9px 0 10px 5px;
+
+}
+
+form p.button-row{font-size:12px; margin-top:0; text-align: left; line-height:0;}
+
+form p.button-row label, form p.button-row input{float:left; border:none; margin:0 5px 0 0; padding:0;}
+
+form p.button-row label{width:495px;}
+
+/* Form Validation */
+
+span.error {background:yellow; color:red; padding:3px 10px; position:absolute; top:0;right:8px}
+
+
+
+/* Specific Form Rules */
+
+.loading {background:url(../images/ajax-loader.gif) no-repeat; width: 136px; height: 22px; border: none; margin:36px 0 100px 406px;}
+
+.success {color:#4ca306; font-size:30px; font-weight:normal; padding:30px 0; line-height:1.3; text-align:center; }
+
+
+
+/* AddThis plugin style */
+
+div.addthis_default_style{margin:40px auto; width:550px; height:24px;}
+
+div.addthis_default_style2{margin:40px auto; width:550px; height:24px;}
+
+.addthis_pill_style {
+
+        width: 50px !important;
+
+}
+
+.addthis_button_facebook_like {
+
+width: 170px !important;
+
+} 
+
+
+
+
+
+div.buyBox{border:8px #d22229 solid;max-width: 742px; padding-bottom: 10px; margin:0 auto; background:url(../images/buy-arrow.png) no-repeat bottom left 47px; border-radius:16px;}
+
+div.no-circle{margin-bottom:15px; padding-top:15px; background: #fff url(../images/buy-arrow-2.png) no-repeat bottom left 144px; position:relative;}
+
+span.guarantee{position:absolute; top:40px;right:60px;}
+
+p.guaranteed{position:relative;}
+
+img.seal-pic{position:absolute;right: -162px; top: -52px;}
+
+div.no-circle img{border-radius:0;}
+
+#instagram{margin-bottom:25px;}
+
+#vimeo1 {
+
+    overflow: hidden;
+
+    position: relative;
+
+    width: 700px;
+
+    height: 400px;
+
+}
+
+#vimeo1 iframe {
+
+    position: absolute;
+
+    left: 0px;
+
+    top: -200px;
+
+}
+
+
+
+.fight-cancer{position:absolute; left:10px; bottom:10px;}
+
+.clients{position:relative; height: 380px;}
+.clients-image{
+	background:url(../images/customers.png) no-repeat center; 
+    height:310px; 
+	width:108%;
+    padding-top:87px;
+    position:absolute;
+    top:0;
+	left:-35px;
+}
+
+.point{background:url(../images/arrows.png) no-repeat center top; padding-bottom:50px;}
+.first-point{background-position: 0 23px;}
+.second-point {padding-top:35px;}
+
+
+#myimage{position:relative;}
+.girl-before-after{
+	position:absolute; 
+    left: -110px;
+    top: 63px; 
+	}
+
+.brian-image{
+	margin-right:15px;
+	}
+
+.before-after-new-text{
+	text-align:right;
+	}
+	
+@media (max-width:979px){
+
+body{padding:0; background-image:url(../images/back-smaller.jpg), url(../images/back-bottom.jpg);}
+
+div.speakers {top:-38px;}
+
+div.bottom-pic-holder, .girl-before-after{display:none;}
+
+ .quick-peak-content ul{margin-top:0;}
+
+  .quick-peak-content ul li {width:85%;}
+
+.formPlace{width:500px;}
+
+.videoBack{background-image:none; background:#fff; border-radius:6px; padding:10px 3px; height:auto;
+
+box-shadow:0 1px 2px 2px #DDDDDD}
+
+div.addthis_default_style{margin: 10px auto;}
+
+.video{
+
+	width:98%;
+
+	margin-top:0 !important;
+
+	  }.features-before {
+
+    width:104% }
+
+.social ul{
+
+    right: -85px;
+
+    top: -25px;
+
+	}
+
+	.footer-wrapper {min-height:180px;}
+
+div.footer{
+
+    top: -67px;}
+
+.quick-peak-content{padding-top:10px;}
+
+.quick-peak-content h4 {position:static; height:auto; padding:0; background:transparent; width:auto;padding-bottom:20px;}
+
+.book h4{float:none; clear:both;}
+
+h3.lose-free{width:600px;}
+
+div.buyBox, div.no-circle{background-image:none;}
+
+span.guarantee{right:10px;}
+
+.no-underline-pic{background-image:none !important; background-color:#f8f799 !important; padding-bottom:20px;}
+
+}
+
+
+
+
+
+@media (max-width:850px){
+
+img.seal-pic{position:static;display: block;margin: 0 auto 10px auto;}
+
+}
+
+
+
+@media (max-width:767px){
+
+	h3.lose-free{background:#f8f7a6; padding:10px 10px 0 10px;width:360px; height:auto;}
+
+	body{padding:0 10px;}
+
+	div.transparent-block{padding:20px 0;}
+
+.testimonials h3 span.testimonials-background, .holes span.testimonials-background {display:none;}
+
+
+
+.holes{margin-top:50px;}
+
+
+
+div.header img.top-message {
+
+    float: right;
+
+    margin: 23px -3px 0 0;
+
+}
+
+div.speakers{right:130px;}
+
+.formPlace{width:400px;}
+
+.testimonials img{max-width:60%;}
+
+.testimonials .span8{width:77%; margin: 32px auto 0 auto;}
+
+.row-fluid .span2:first-child, .row-fluid .span2{margin:20px auto 0 auto;}
+
+.row-fluid h3{width:77%; margin:0 auto;}
+
+.testimonials .span8 span.arrow{
+
+	top:-22px;
+
+	left:44%;
+
+	background:url(../images/arrow-2.png) no-repeat;
+
+	width:41px;
+
+	height:23px;
+
+	}
+
+	
+
+ 
+
+ /* Footer */
+
+.footer-wrapper {
+
+    min-height: 302px;
+
+}
+
+div.footer ul li{float:none; margin-bottom:20px;}
+
+div.footer ul li a{font-size:23px;}
+
+div.footer p.span6{text-align:center;}
+
+.features-content{padding:36px 15px;}
+
+.testimonials-content{padding:0;}
+
+
+
+}
+
+
+
+@media (min-width:768px) and (max-width:979px){
+
+div.header{	background-size:99%; }
+
+div.header img.top-message {
+
+    margin: 23px 103px 0 0;
+
+}
+
+div.header img{max-width:56%;} 
+
+.header-wrapper{height:207px;}
+
+div.footer{background-size:99%;}
+
+.row-fluid .span2{margin:0 4px 0 45px;}
+
+.testimonials .span8 span.arrow{
+
+	display:none;
+
+	}
+
+}
+
+
+
+@media (max-width:610px){
+
+body{background-color:#f7f1e7;
+
+		background-image:url(../images/back-smaller-2.jpg),  url(../images/back-bottom.jpg)}
+
+
+
+div.header img.top-message, div.speakers {display:none;}
+
+.book{border:none;}
+
+.book-wrapper{background:transparent;}
+
+div.addthis_default_style{width: 100%;}
+
+.mindset h4, .introduction h4{width:auto; background-repeat:repeat; background-color:#d2232a;}
+
+span.guarantee{right:-10px;}
+
+.fight-cancer{bottom:30px;}
+
+}
+
+
+
+@media (max-width:480px){
+
+		body{
+
+			background-color:#f7f1e7;
+
+		background-image:url(../images/back-smallest.jpg),  url(../images/back-bottom.jpg)}
+
+
+
+		.formPlace{width:300px;}
+
+		h3.lose-free{width:300px;}
+
+		
+
+div.header img.logo {
+
+    margin: 24px 0 0 12px;
+
+    width: 43%;
+
+}
+
+.video{
+
+	width:97%;
+
+	  }
+
+.features, .testimonials, .quick-peak{
+
+	padding:24px 0;
+
+	margin:20px 0;
+
+	}
+
+.features-content, .testimonials-content, .quick-peak-content{
+
+	background-image:none;
+
+	padding:0;}
+
+.features h3, .testimonials h3, .quick-peak h3{
+
+	font-size:40px;
+
+	}
+
+	h3.lose-free {
+
+    width: 250px;
+
+}
+
+h2{font-size:26px;}
+
+h3{line-height:1.4em;}
+
+.imgRight{display:block; float:none; margin:10px auto;}
+
+.features-content ul {margin-left:0;}
+
+.header-wrapper {
+
+    height: 180px;}
+
+div.header {
+
+    background: url(../images/top.png) no-repeat 50% -89px;
+
+    height:auto;
+
+}
+
+div.main-box-white{margin:0; padding:1px 0;}
+
+.testimonials{padding:10px;}
+
+.testimonials .span8{width:100%;}
+
+span.guarantee{display:none;}
+
+div.faq-head h1 {
+
+    padding: 100px 0;
+
+}
+
+.brian-image{
+    padding: 0 20%;
+	}
+.before-after-new-text{
+	text-align:center;
+	}
+
+}
+
